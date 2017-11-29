@@ -1,4 +1,4 @@
-# asm68k-docker-image
+# asm68k Docker Image
 SN Systems' 68000 assembler running with Wine, within Docker
 
 ## Example Usage
