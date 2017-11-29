@@ -6,4 +6,5 @@ RUN dpkg --add-architecture i386 && \
 CMD mkdir /app
 COPY asm68k.exe /app/
 WORKDIR /src
+ENV WINEDEBUG -all
 ENTRYPOINT ["wine", "Z:\\app\\asm68k.exe"]
